@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-cqlab3#@k(_vw%xwxummpx)ijs&i_1tt0t9(88y=ch9((%wgsh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['slimane16.pythonanywhere.com']
 
 
 # Application definition
@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'accounts',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
- 
+    'whitenoise.runserver_nostatic',
 ]
 
 MIDDLEWARE = [
